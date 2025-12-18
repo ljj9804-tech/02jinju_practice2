@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- 한국어 설정 완료 -->
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 타이틀 수정 완료 -->
+    <title>이진주의 프로필</title>
+    
+
+    <link rel="stylesheet" href="jinju test.css">
+
+</head>
+
+<body>
+    <header id="top">
+        
+        <h1>안녕하세요 이진주입니다.</h1>
+        <!-- 네비게이터 설정 -->
+        <nav>
+            <a href="#top">홈</a>
+            <a href="#hobbies">경력</a>
+            <a href="#contact">문의하기</a>
+        </nav>
+           </header>
+
+    <!-- 여기부터 메인     -->
+    <main>
+        <section id="intro">
+            <img src="profile.jpg" alt="프로필사진" width="150px">
+            <p>끊임없이 배우고 성장하는 <strong>신입 프론트엔드 개발자</strong>🔥</p>
+        </section>
+
+        <section id="hobbies">
+            <h3>📚저의 취미입니다.</h3>
+            <ul>
+                <li>🐶강아지와 산책</li>
+                <li>🌟별 보기</li>
+                <li>🎵음악 감상</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>📄이력 및 경력</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>연도</th>
+                        <th>내용</th>
+                    </tr>
+                </thead border="1">
+                <tbody>
+                    <tr>
+                        <td ROWSPAN="3">2025년</td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                    </tr>
+                    <tr>
+                        <td>JS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>🎥좋아하는 영상</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bw4AuPrLWeA?si=1n8-4uOSo4V2sqCE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section id="contact">
+            <h3>✉️문의하기</h3>
+            <form>
+                <label for="name">이름:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">이메일:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+                <label for="message">문의 내용:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="내용을 입력해 주세요."
+                    required></textarea><br><br>
+
+                <button type="submit">보내기</button>
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- 여기부터 푸터 -->
+    <footer>
+        <p>Copyright © 2025 이진주. All rights reserved.</p>
+    </footer>
+    <!-- 여기까지 푸터 -->
+
+    <script src="jinju test.js"></script>
+</body>
+
+</html>

@@ -58,13 +58,135 @@
                 }
             </style>
 
-            <img src="cat2.jpg" class="responsive-img" alt="풍경">
+            <img src="cat2.jpg" class="responsive-img" alt="고양이">
         </section>
-         <section>
+        <section>
             <h2>이미지 크기 예시4</h2>
-            <img src="dog1.jpg" width="100%" alt="강아지"
-            style="width: 150px; height: 150px; object-fit: cover;" >
+            <img src="dog1.jpg" width="100%" alt="강아지" style="width: 150px; height: 150px; object-fit: contain;">
         </section>
+
+        <section>
+            <h3>예시1</h3>
+            <input type="password" placeholder="비번">
+            <h3>예시2</h3>
+            <input type="text" placeholder="이름을 입력하세요">
+            <h3>예시3</h3>
+            <input type="email" placeholder="example@email.com">
+            <h3>예시4</h3>
+            <input type="number" min="1" max="100" value="0">
+        </section>
+
+        <section>
+            <h3>예시5</h3>
+            <input type="checkbox" id="coding" name="hobby" checked> <label for="coding">코딩</label>
+        </section>
+        <section>
+            <h2>테이블 태그 예시1</h2>
+            <table border="1">
+                <tr>
+                    <th>이름</th>
+                    <th>나이</th>
+                    <th>성별</th>
+                    <th>비고</th>
+                </tr>
+                <tr>
+                    <td>김철수</td>
+                    <td>20세</td>
+                    <td>남성</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>이영희</td>
+                    <td>23세</td>
+                    <td>여성</td>
+                    <td></td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section>
+            <h2>테이블 태그 예시2_검색엔진이 구조를 파악하기 용이함. 권장 방식!!!</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>사용자명</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>홍길동</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>성춘향</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>예시코드3 가로, 세로 병합, 캡션 제목 보여주기</h3>
+            <table border="1">
+                <caption>주간 식단표</caption>
+                <thead>
+                    <tr>
+                        <th>시간</th>
+                        <th>월요일</th>
+                        <th>화요일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>점심</td>
+                        <td rowspan="2">비빔밥 (세로 병합)</td>
+                        <td>김치찌개</td>
+                    </tr>
+                    <tr>
+                        <td>저녁</td>
+                        <td>된장찌개</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align:center;">※ 주말 식단은 추후 공지</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>다른사이트 띄우기 예시코드1</h2>
+            <iframe src="https://nate.com" width="600" height="400"></iframe>
+        </section>
+
+        <section>
+            <h2>옵션으로 프레임의 테두리를 없애기 위한 예시코드2</h2>
+            <iframe src="https://nate.com" style="border:none;" width="600" height="400"></iframe>
+        </section>
+
+        <section>
+            <h2>유튜브 영상 넣기</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2NyfVo89JRA?si=hJn7Q9Fb2tDTqbS6"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>구글 맵 퍼오기</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d484.9016817287102!2d129.059328699545!3d35.15620457518589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb6feb39fa0d%3A0x17502eaffb28a5b4!2z67aA7IKwSVTqtZDsnKHshLzthLA!5e0!3m2!1sko!2skr!4v1766028429845!5m2!1sko!2skr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section>
+            <h2>PDF 파일 뷰어 이용하기</h2>
+       <div><iframe src="1_HTML_1-완성_part_1_필기1 (1).pdf" width="600" height="450" style="border:0;"></iframe></div>
+        </section>
+
+
     </main>
 
 
